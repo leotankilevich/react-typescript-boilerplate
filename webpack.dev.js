@@ -1,4 +1,3 @@
-/*eslint @typescript-eslint/no-var-requires:0*/
 const path = require('path');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 const baseConfig = require('./webpack.base');

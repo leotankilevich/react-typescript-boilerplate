@@ -1,4 +1,3 @@
-/*eslint @typescript-eslint/no-var-requires:0*/
 const { merge } = require('webpack-merge');
 const baseConfig = require('./webpack.base');
 
