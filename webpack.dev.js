@@ -1,9 +1,9 @@
 const path = require('path');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
-const baseConfig = require('./webpack.base');
 const { merge } = require('webpack-merge');
+const commonConfig = require('./webpack.common');
 
-module.exports = merge(baseConfig, {
+module.exports = merge(commonConfig, {
     mode: 'development',
     devtool: 'inline-source-map',
     devServer: {
